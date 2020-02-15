@@ -7,11 +7,11 @@ import java.util.List;
 public interface IBaseDao{
     List<User> findAll();
 
-    User findOne(String id);
+    User findOne(int id);
 
     void update(User user);
 
-    void delete(String id);
+    void delete(int id);
 
     void add(User user);
 

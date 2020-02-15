@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springmvc-mongo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springmvc-mongo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ivy.war">
+      <element id="artifact" artifact-name="springmvc-mongo:war exploded" />
+    </root>
+  </artifact>
+</component>
